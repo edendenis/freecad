@@ -1,12 +1,12 @@
-# Como configurar/instalar o `FreeCAD` no Linux Ubuntu
+# Como configurar/instalar o `FreeCAD` no `Linux Ubuntu`
 
 ## Resumo
 
-Neste documento estão contidos os principais comandos e configurações para configurar/instalar o `FreeCAD` no Linux Ubuntu.
+Neste documento estão contidos os principais comandos e configurações para configurar/instalar o `FreeCAD` no `Linux Ubuntu`.
 
 ## _Abstract_
 
-_In this document are contained the main commands and settings to set up/install the `FreeCAD` on Linux Ubuntu._
+_In this document are contained the main commands and settings to set up/install the `FreeCAD` on `Linux Ubuntu`._
 
 ## Descrição [2]
 
