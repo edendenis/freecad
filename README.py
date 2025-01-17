@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Como configurar/instalar o `FreeCAD` no `Linux Ubuntu`
+# # Como configurar/instalar o `FreeCAD` ou o `freecad-realthunder` no `Linux Ubuntu`
 # 
 # ## Resumo
 # 
@@ -17,6 +17,10 @@
 # 
 # O `FreeCAD` é uma poderosa e versátil plataforma de modelagem paramétrica 3D de código aberto, projetada principalmente para o design e modelagem de peças e conjuntos em engenharia mecânica e design de produtos. Com uma interface de usuário intuitiva e uma ampla gama de recursos, o `FreeCAD` permite criar modelos 3D precisos e detalhados. Ele suporta a criação de sólidos, superfícies, esboços 2D e montagens complexas, tornando-o uma ferramenta valiosa para projetistas, engenheiros e entusiastas de CAD. Além disso, o `FreeCAD` é altamente personalizável e possui uma comunidade ativa de desenvolvedores e usuários que contribuem com extensões e módulos para estender ainda mais sua funcionalidade, o que o torna uma opção popular para modelagem 3D no mundo do código aberto.
 # 
+# `freecad-realthunder`
+# 
+# O `freecad-realthunder` é uma versão personalizada do FreeCAD, um software de modelagem 3D de código aberto, focado em aprimorar e expandir a funcionalidade do FreeCAD com novos recursos e melhorias. Desenvolvido por um usuário conhecido como RealThunder, esse fork do FreeCAD introduz melhorias na interface, estabilidade e desempenho, além de novas ferramentas para facilitar o trabalho com modelagem 3D paramétrica e outros tipos de design assistido por computador (CAD). O `freecad-realthunder` busca tornar o FreeCAD mais acessível e poderoso, com funcionalidades adicionais que podem ser úteis tanto para amadores quanto para profissionais da área de design e engenharia.
+# 
 # Add-in `Modern UI` [2]
 # 
 # O `ModernUI` é uma interface de usuário alternativa para o `FreeCAD`, uma plataforma de modelagem 3D de código aberto. O `ModernUI` oferece uma abordagem de interface mais moderna e simplificada em comparação com a interface de usuário padrão do `FreeCAD`, projetada para tornar a experiência do usuário mais amigável e eficiente. Ele apresenta ícones e layouts de menus atualizados, bem como uma organização mais intuitiva das ferramentas e comandos, tornando mais fácil para os usuários acessar e navegar pelas funcionalidades do `FreeCAD`. O `ModernUI` é uma opção atraente para aqueles que preferem uma interface de usuário mais contemporânea e amigável, e oferece uma alternativa à interface de usuário padrão do `FreeCAD`, permitindo aos usuários escolher a que melhor se adapta às suas preferências e fluxos de trabalho.
@@ -29,7 +33,9 @@
 # 
 # O `Path Workbench` (ou Workbench de Caminho) é um dos ambientes de trabalho no `FreeCAD`, um software de modelagem 3D de código aberto. O Path Workbench é projetado para lidar com tarefas relacionadas à criação de trajetórias de ferramentas para máquinas CNC (Controle Numérico Computadorizado). Ele permite aos usuários gerar caminhos de ferramentas para usinagem CNC, incluindo fresamento e corte, definindo trajetórias e operações de usinagem para criar peças de trabalho precisas. O Path Workbench oferece ferramentas para criar geometria de corte, configurar parâmetros de usinagem, simular a usinagem e gerar código G para máquinas CNC. É uma ferramenta valiosa para engenheiros e projetistas que trabalham com fabricação CNC, permitindo a criação e a otimização de caminhos de ferramentas para produzir peças com precisão a partir de modelos 3D no `FreeCAD`.
 
-# ## 1. Como configurar/instalar/usar o `FreeCAD` no `Linux Ubuntu` [1]
+# ## 1. Como configurar/instalar/usar o `FreeCAD` ou o `freecad-realthunder` no `Linux Ubuntu` [1]
+# 
+# ### 1.1 `FreeCAD`
 # 
 # Para configurar/instalar/usar o `FreeCAD`, você pode seguir estas etapas:
 # 
@@ -64,7 +70,7 @@
 # Agora, o `FreeCAD` estará instalado e pronto para uso no seu sistema `Linux Ubuntu`.
 # 
 
-# ### 1.1 Codigo completo para configurar/instalar/usar
+# ### 1.1.1 Codigo completo para configurar/instalar/usar
 # 
 # Para configurar/instalar/usar o `FreeCAD` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 # 
@@ -85,6 +91,80 @@
 #     ```
 # 
 
+# ### 1.2 `freecad-realthunder`
+# 
+# Para configurar/instalar/usar o `freecad-realthunder`, você pode seguir estas etapas:
+# 
+# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+
+# 2. Certifique-se de que seu sistema esteja limpo e atualizado.
+# 
+#     2.1 Limpar o `cache` do gerenciador de pacotes `apt`. Especificamente, ele remove todos os arquivos de pacotes (`.deb`) baixados pelo `apt` e armazenados em `/var/cache/apt/archives/`. Digite o seguinte comando: `sudo apt clean` 
+#     
+#     2.2 Remover pacotes `.deb` antigos ou duplicados do cache local. É útil para liberar espaço, pois remove apenas os pacotes que não podem mais ser baixados (ou seja, versões antigas de pacotes que foram atualizados). Digite o seguinte comando: `sudo apt autoclean`
+# 
+#     2.3 Remover pacotes que foram automaticamente instalados para satisfazer as dependências de outros pacotes e que não são mais necessários. Digite o seguinte comando: `sudo apt autoremove -y`
+# 
+#     2.4 Buscar as atualizações disponíveis para os pacotes que estão instalados em seu sistema. Digite o seguinte comando e pressione `Enter`: `sudo apt update`
+# 
+#     2.5 **Corrigir pacotes quebrados**: Isso atualizará a lista de pacotes disponíveis e tentará corrigir pacotes quebrados ou com dependências ausentes: `sudo apt --fix-broken install`
+# 
+#     2.6 Limpar o `cache` do gerenciador de pacotes `apt`. Especificamente, ele remove todos os arquivos de pacotes (`.deb`) baixados pelo `apt` e armazenados em `/var/cache/apt/archives/`. Digite o seguinte comando: `sudo apt clean` 
+#     
+#     2.7 Para ver a lista de pacotes a serem atualizados, digite o seguinte comando e pressione `Enter`:  `sudo apt list --upgradable`
+# 
+#     2.8 Realmente atualizar os pacotes instalados para as suas versões mais recentes, com base na última vez que você executou `sudo apt update`. Digite o seguinte comando e pressione `Enter`: `sudo apt full-upgrade -y`
+#     
+
+# 3. **Baixe o `AppImage` do `FreeCAD-RealThunder`**: Use o comando abaixo para baixar a versão mais recente diretamente do `GitHub`:
+# 
+# ```
+# wget https://github.com/realthunder/FreeCAD_assembly3/releases/download/LinkDaily/FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+# ```
+# 
+# 4. **Torne o `AppImage` executável**: Após o _download_, torne o arquivo executável:
+# 
+# ```
+# chmod +x FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+# ```
+# 
+# 5. **Execute o `FreeCAD-RealThunder`**: Execute o `AppImage` diretamente:
+# 
+# ```
+# ./FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+# ```
+
+# **Funcionalidades Adicionais**
+# 
+# * **Interface de Usuário Melhorada**: O `RealThunder` apresenta ajustes na interface, como filtros de seleção e opções aprimoradas para navegação e manipulação.
+# 
+# * **Recursos Avançados**: Inclui novas ferramentas e funcionalidades que não estão disponíveis na versão oficial do `FreeCAD`, como melhorias em _workbenches_ e novas opções para modelagem.
+# 
+# * **Mais Rápido e Estável**: Usuários relatam que o `RealThunder` oferece um desempenho mais estável e rápido em modelos grandes ou complexos.
+
+# ### 1.2 Codigo completo para configurar/instalar/usar
+# 
+# Para configurar/instalar/usar o `FreeCAD` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
+# 
+# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+# 
+# 2. Digite o seguinte comando e pressione `Enter`:
+# 
+#     ```
+#     sudo apt clean
+#     sudo apt autoclean
+#     sudo apt autoremove -y
+#     sudo apt update
+#     sudo apt --fix-broken install
+#     sudo apt clean
+#     sudo apt list --upgradable
+#     sudo apt full-upgrade -y
+#     wget https://github.com/realthunder/FreeCAD_assembly3/releases/download/LinkDaily/FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+#     chmod +x FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+#     ./FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+#     ```
+# 
+
 # ## 2 Ativar o `ModerUI` no `FreeCAD` [3]
 # 
 # Para ativar o `ModerUI` no `FreeCAD`, você precisa seguir alguns passos simples. O `ModerUI` é um ambiente de trabalho (_workbench_) que proporciona uma interface mais moderna e simplificada para o `FreeCAD`. Aqui estão os passos para ativá-lo:
@@ -95,7 +175,7 @@
 #     
 #     2.1 `"View"` > `"Workbenche"` (ou `"Ambiente de Trabalho"`).
 #     
-#     Se o `ModerUI` estiver na lista, você pode pular o passo 3.
+#     Se o `ModerUI` estiver na lista, você pode pular o passo 4.
 # 
 # 3. **Instale o `ModerUI` (se necessário):** Se o `ModerUI` **NÃO** estiver na lista de ambientes de trabalho, você precisará instalá-lo. Para isso:
 # 
@@ -105,14 +185,67 @@
 #     
 #     3.3 Procure por `ModerUI` na lista de complementos disponíveis e clique em `Install` (`Instalar`).
 # 
-# 4. **Ative o ModerUI:** Após a instalação, você pode ativar o `ModerUI`. Vá novamente até a barra de menu, clique em: `"Ver" > "Ambientes de Trabalho" e selecione "ModerUI"`.
+# 4. **Ative o `ModerUI`:** Após a instalação, você pode ativar o `ModerUI`. Vá novamente até a barra de menu, clique em: `"Ver" > "Ambientes de Trabalho" e selecione "ModerUI"`.
 # 
 # 5. **Explore a nova interface:** Com o `ModerUI` ativado, você notará uma mudança na interface do `FreeCAD`, com uma aparência mais moderna e talvez um conjunto diferente de ferramentas e opções disponíveis.
 # 
 # Lembre-se de que as versões do `FreeCAD` e dos complementos podem variar, então os passos exatos podem ser um pouco diferentes dependendo da versão que você está usando. Se tiver dificuldades, consulte a documentação do `FreeCAD` ou fóruns da comunidade para obter ajuda específica para a sua versão.
 # 
 
-# ## 3. Ativar o `A2plus` no `FreeCAD` [4]
+# ## 3. Instalar um Add-on manualmente
+# 
+# Para instalar um Add-on manualmente no `FreeCAD` em uma rede corporativa que bloqueia o acesso ao GitHub, você pode fazer o download do Add-on em outro computador ou rede que tenha acesso ao GitHub e depois transferi-lo para a máquina onde o `FreeCAD` está instalado. Aqui estão os passos:
+# 
+# ### Baixe o Add-on manualmente
+# 
+# 1. **Acesse o Repositório do Add-on no `GitHub`**: Visite a página oficial de Add-ons do `FreeCAD` ou o repositório específico do Add-on que deseja instalar. Por exemplo: FreeCAD Addons Repository: <https://github.com/FreeCAD/FreeCAD-addons>
+# 
+# 2. **Baixe o Add-on**:
+# 
+#     2.1 No repositório do Add-on, clique em `Code` e escolha `Download ZIP`.
+# 
+#     2.2 Salve o arquivo ZIP em um dispositivo de armazenamento ou transfira-o para a máquina onde o `FreeCAD` está instalado.
+# 
+# ### Extraia o Add-on
+# 
+# 1. Copie o arquivo ZIP para o computador com o `FreeCAD`.
+# 
+# 2. Extraia o conteúdo do ZIP para o diretório onde os Add-ons do `FreeCAD` estão armazenados:
+# 
+#     * **Linux**: Normalmente em `~/.FreeCAD/Mod/`
+# 
+#     * **Windows**: Normalmente em `%APPDATA%\FreeCAD\Mod\`
+# 
+#     * **MacOS**: Normalmente em `~/Library/Preferences/FreeCAD/Mod/`
+# 
+#     Se o diretório `Mod` não existir, você pode criá-lo manualmente.
+# 
+# ### Verifique se o Add-on Foi Reconhecido
+# 
+# 1. Abra o `FreeCAD`.
+# 
+# 2. Navegue até o menu de Workbenches (bancadas de trabalho).
+# 
+# 3. Verifique se a nova bancada de trabalho ou `Add-on` aparece na lista.
+# 
+# ### Configurações Manuais (Se Necessário)
+# 
+# Alguns Add-ons podem exigir dependências adicionais (como bibliotecas `Python`). Leia o arquivo README.md do Add-on no repositório para verificar as instruções de instalação e dependências.
+# 
+# Para instalar dependências manualmente:
+# 
+# 1. Use o `pip` para instalar bibliotecas `Python`:
+# 
+# ```
+# pip install nome_da_biblioteca
+# ```
+# 
+# ### Manutenção
+# 
+# Como você está instalando os Add-ons manualmente, será necessário verificar atualizações periodicamente no repositório do Add-on, já que ele não será atualizado automaticamente pelo gerenciador do `FreeCAD`.
+# 
+
+# ### 3.1 Ativar o `A2plus` no `FreeCAD` [4]
 # 
 # Para ativar o `A2plus` no `FreeCAD`, você precisa seguir alguns passos simples. O `A2plus` é um workbench (bancada de trabalho) dentro do `FreeCAD` que permite o trabalho com montagens mecânicas. Aqui está o processo:
 # 
@@ -144,7 +277,7 @@
 # 
 #     3.3 Caso encontre algum problema durante a instalação ou a utilização do `A2plus`, consulte a documentação do FreeCAD ou fóruns da comunidade para obter ajuda adicional.
 
-# ## 4. `Path Workbench`
+# ### 3.2 `Path Workbench`
 # 
 # Para habilitar e usar o `Path Workbench` no `FreeCAD`, siga os passos abaixo. Vou assumir que você já tem o `FreeCAD` instalado no seu sistema. Se não tiver, você precisará instalar o `FreeCAD` primeiro.
 # 
@@ -177,20 +310,6 @@
 #     - Utilize as ferramentas do `Path Workbench` para criar operações de caminho, como contornar, perfurar, gravar, etc.
 # 
 #     - Configure as propriedades de cada operação, como profundidade, velocidade de corte, e seleção de ferramenta.
-# 
-# 6. **Simular o Caminho de Ferramentas:**
-# 
-#     - Após configurar as operações, use a ferramenta de simulação para visualizar o caminho de ferramentas. Isso é crucial para garantir que tudo está configurado corretamente antes da usinagem real.
-# 
-# 7. **Exportar o Código G:**
-# 
-#     - Quando estiver satisfeito com a configuração, você pode exportar o caminho de ferramentas como código G, que será usado pela sua máquina CNC.
-# 
-# **Dicas Adicionais**
-# 
-# - **Explorar Tutoriais e Documentação:** Se você é novo no Path Workbench ou no CAM em geral, explorar tutoriais online e a documentação do `FreeCAD` pode ser muito útil.
-# 
-# - **Configurações de Máquina:** Lembre-se de que diferentes máquinas CNC podem requerer configurações específicas no código G. Verifique as especificações da sua máquina e ajuste as configurações conforme necessário.
 # 
 # - **Prática e Experimentação:** Como qualquer ferramenta poderosa, o Path Workbench tem uma curva de aprendizado. Pratique com projetos simples para se familiarizar com as funcionalidades e capacidades do workbench.
 # 
@@ -240,14 +359,14 @@
 # ### 5.4 DXF
 # 
 # <div style="text-align: center;">
-#     <img src="figures/dxf.jpg" alt="Descrição da Imagem" />
+#     <img src="figures/dxf.png" alt="Descrição da Imagem" />
 # </div>
 # 
 # Para importar arquivos `DXF` no `FreeCAD` de forma eficiente, a configuração das opções de importação pode depender do tipo de arquivo `DXF` que você está importando e do que você pretende fazer com ele após a importação. Aqui estão algumas recomendações baseadas nas opções disponíveis na sua imagem:
 # 
 # 1. **Mostrar esse diálogo quando importar e exportar**: Ativado
 # 
-# 2. **Importar textos e dimensões, pontos, layouts, blocos**:
+# 2. **Importar textos e dimensões, pontos, _layouts_, blocos**:
 # 
 #     - **Importar textos e dimensões**: Ativado, se o seu DXF contiver textos e dimensões importantes.
 # 
@@ -287,7 +406,7 @@
 # 
 # 14. **Opções de exportação**:
 # 
-#     - Exportar visualizações de desenhos como blocos: Ativado, para manter os blocos ao exportar.
+#     - **Exportar visualizações de desenhos como blocos**: Ativado, para manter os blocos ao exportar.
 # 
 #     - As outras opções de exportação podem ser desativadas a menos que você tenha uma necessidade específica.
 # 
@@ -314,12 +433,22 @@
 # 1. **Mostrar esse diálogo quando importar e exportar**: Ativado
 # 
 
+# ## 6. Desinstalar o `FreeCAD`
+# 
+# 1. Se você preferir, pode remover o `FreeCAD 0.19` antes de instalar a nova versão:
+# 
+#     ```
+#     sudo apt remove freecad freecad-common
+#     sudo apt autoremove
+#     ```
+# 
+
 # ## Referências
 # 
-# [1] OPENAI. ***Instalar freecad 0.19 no ubuntu:*** https://chat.openai.com/c/f3fbd8b3-8f3c-478f-9cda-568f7da146d8 (texto adaptado). ChatGPT. Acessado em: 16/11/2023 10:06.
+# [1] OPENAI. ***Instalar freecad 0.19 no ubuntu.*** Disponível em: <https://chat.openai.com/c/f3fbd8b3-8f3c-478f-9cda-568f7da146d8> (texto adaptado). ChatGPT. Acessado em: 16/11/2023 10:06.
 # 
-# [2] OPENAI. ***Vs code: editor popular:*** https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42 (texto adaptado). ChatGPT. Acessado em: 16/11/2023 10:06.
+# [2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 16/11/2023 10:06.
 # 
-# [3] OPENAI. ***Ativar ModerUI no FreeCAD:*** https://chat.openai.com/c/7d74a9a2-f569-4ef0-8e2b-3421e67dc053 (texto adaptado). ChatGPT. Acessado em: 05/12/2023 20:07. 
+# [3] OPENAI. ***Ativar ModerUI no freecad.*** Disponível em: <https://chat.openai.com/c/7d74a9a2-f569-4ef0-8e2b-3421e67dc053> (texto adaptado). ChatGPT. Acessado em: 05/12/2023 20:07. 
 # 
-# [4] OPENAI. ***Ativar a2plus no freecad:*** https://chat.openai.com/c/51b969b1-a80b-48fa-84dc-4f019ba41ba7 (texto adaptado). ChatGPT. Acessado em: 05/12/2023 20:08.
+# [4] OPENAI. ***Ativar a2plus no freecad.*** Disponível em: <https://chat.openai.com/c/51b969b1-a80b-48fa-84dc-4f019ba41ba7> (texto adaptado). ChatGPT. Acessado em: 05/12/2023 20:08.
