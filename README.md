@@ -76,7 +76,7 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 
 25. **Estimate**: Estimativas de custo e tempo para projetos no FreeCAD, visando facilitar o planejamento.
 
-26. **ExplodedAssembly**: Criação de montagens explodidas para visualizar melhor as partes individuais de um modelo.
+26. **ExplodedAssembly (obrigatório)**: Criação de montagens explodidas para visualizar melhor as partes individuais de um modelo.
 
 27. **ExtMan**: Extensão para gerenciar a instalação e a atualização de módulos e extensões no FreeCAD.
 
@@ -104,7 +104,7 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 
 39. **ImportNURBS**: Ferramenta para importar modelos NURBS (Non-Uniform Rational B-Splines) em FreeCAD.
 
-40. **InventorLoader (obrigatório)**: Permite importar arquivos do Autodesk Inventor para o FreeCAD.
+40. **InventorLoader**: Permite importar arquivos do Autodesk Inventor para o FreeCAD.
 
 41. **LCInterlocking**: Ferramenta para modelagem de sistemas de interligação de ferrovias.
 
@@ -112,7 +112,7 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 
 43. **Lithophane**: Criação de modelos 3D que podem ser impressos em forma de litofania (imagens em relevo).
 
-44. **MOOC (obrigatório)**: Ferramenta de aprendizagem para usuários do FreeCAD com cursos e tutoriais integrados.
+44. **MOOC**: Ferramenta de aprendizagem para usuários do FreeCAD com cursos e tutoriais integrados.
 
 45. **MakerWorkbench**: Ferramentas para criadores e makers, facilitando a criação de protótipos no FreeCAD.
 
@@ -172,7 +172,7 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 
 73. **TabBar**: Modifica a interface do FreeCAD, adicionando uma barra de abas para facilitar a navegação entre documentos.
 
-74. **ThreadProfile (obrigatório)**: Permite criar e manipular perfis de rosca no FreeCAD.
+74. **ThreadProfile**: Permite criar e manipular perfis de rosca no FreeCAD.
 
 75. **ToolbarStyle**: Personaliza o estilo e o comportamento das barras de ferramentas do FreeCAD.
 
