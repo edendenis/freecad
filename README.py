@@ -13,25 +13,178 @@
 
 # ## Descrição [2]
 # 
-# `FreeCAD`
+# ### `FreeCAD`
 # 
 # O `FreeCAD` é uma poderosa e versátil plataforma de modelagem paramétrica 3D de código aberto, projetada principalmente para o design e modelagem de peças e conjuntos em engenharia mecânica e design de produtos. Com uma interface de usuário intuitiva e uma ampla gama de recursos, o `FreeCAD` permite criar modelos 3D precisos e detalhados. Ele suporta a criação de sólidos, superfícies, esboços 2D e montagens complexas, tornando-o uma ferramenta valiosa para projetistas, engenheiros e entusiastas de CAD. Além disso, o `FreeCAD` é altamente personalizável e possui uma comunidade ativa de desenvolvedores e usuários que contribuem com extensões e módulos para estender ainda mais sua funcionalidade, o que o torna uma opção popular para modelagem 3D no mundo do código aberto.
 # 
-# `freecad-realthunder`
+# ### `freecad-realthunder`
 # 
 # O `freecad-realthunder` é uma versão personalizada do FreeCAD, um software de modelagem 3D de código aberto, focado em aprimorar e expandir a funcionalidade do FreeCAD com novos recursos e melhorias. Desenvolvido por um usuário conhecido como RealThunder, esse fork do FreeCAD introduz melhorias na interface, estabilidade e desempenho, além de novas ferramentas para facilitar o trabalho com modelagem 3D paramétrica e outros tipos de design assistido por computador (CAD). O `freecad-realthunder` busca tornar o FreeCAD mais acessível e poderoso, com funcionalidades adicionais que podem ser úteis tanto para amadores quanto para profissionais da área de design e engenharia.
 # 
-# Add-in `Modern UI` [2]
+# ### `Path Workbench` [2]
 # 
-# O `ModernUI` é uma interface de usuário alternativa para o `FreeCAD`, uma plataforma de modelagem 3D de código aberto. O `ModernUI` oferece uma abordagem de interface mais moderna e simplificada em comparação com a interface de usuário padrão do `FreeCAD`, projetada para tornar a experiência do usuário mais amigável e eficiente. Ele apresenta ícones e layouts de menus atualizados, bem como uma organização mais intuitiva das ferramentas e comandos, tornando mais fácil para os usuários acessar e navegar pelas funcionalidades do `FreeCAD`. O `ModernUI` é uma opção atraente para aqueles que preferem uma interface de usuário mais contemporânea e amigável, e oferece uma alternativa à interface de usuário padrão do `FreeCAD`, permitindo aos usuários escolher a que melhor se adapta às suas preferências e fluxos de trabalho.
+# O `Path Workbench` (ou Workbench de Caminho) é um dos ambientes de trabalho no FreeCAD, um software de modelagem 3D de código aberto. O `Path Workbench` é projetado para lidar com tarefas relacionadas à criação de trajetórias de ferramentas para máquinas CNC (Controle Numérico Computadorizado). Ele permite aos usuários gerar caminhos de ferramentas para usinagem CNC, incluindo fresamento e corte, definindo trajetórias e operações de usinagem para criar peças de trabalho precisas. O `Path Workbench` oferece ferramentas para criar geometria de corte, configurar parâmetros de usinagem, simular a usinagem e gerar código G para máquinas CNC. É uma ferramenta valiosa para engenheiros e projetistas que trabalham com fabricação CNC, permitindo a criação e a otimização de caminhos de ferramentas para produzir peças com precisão a partir de modelos 3D no FreeCAD.
+
+# ### Add-on
 # 
-# Add-in `A2plus` [2]
+# Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 # 
-# A extensão `"A2Plus"` no `FreeCAD` é um módulo que permite a importação e edição de arquivos no formato de montagem Assembly 2 para criar conjuntos de peças complexos em projetos CAD. Essa extensão é particularmente útil para designers e engenheiros que trabalham em projetos que envolvem múltiplas peças e montagens, permitindo que eles criem e gerenciem montagens complexas com facilidade. Com o `A2Plus`, os usuários podem importar peças existentes, posicionar e alinhar essas peças em relação umas às outras, criar restrições e relações entre elas e, assim, criar montagens mais elaboradas dentro do ambiente do `FreeCAD`. Essa extensão aprimora a funcionalidade do `FreeCAD`, tornando-o uma ferramenta mais poderosa para o design e a modelagem paramétrica de montagens mecânicas.
+# 1. **3D_Printing_Tools**: Ferramentas para facilitar o processo de preparação de modelos 3D para impressão, incluindo ajustes e verificações.
 # 
-# `Path Workbench` [2]
+# 2. **3DfindIT**: Um repositório para buscar e inserir modelos 3D diretamente no FreeCAD, otimizando o design de projetos.
 # 
-# O `Path Workbench` (ou Workbench de Caminho) é um dos ambientes de trabalho no `FreeCAD`, um software de modelagem 3D de código aberto. O Path Workbench é projetado para lidar com tarefas relacionadas à criação de trajetórias de ferramentas para máquinas CNC (Controle Numérico Computadorizado). Ele permite aos usuários gerar caminhos de ferramentas para usinagem CNC, incluindo fresamento e corte, definindo trajetórias e operações de usinagem para criar peças de trabalho precisas. O Path Workbench oferece ferramentas para criar geometria de corte, configurar parâmetros de usinagem, simular a usinagem e gerar código G para máquinas CNC. É uma ferramenta valiosa para engenheiros e projetistas que trabalham com fabricação CNC, permitindo a criação e a otimização de caminhos de ferramentas para produzir peças com precisão a partir de modelos 3D no `FreeCAD`.
+# 3. **A2plus (obrigatório)**: Uma versão avançada do trabalho com assembleias no FreeCAD, permitindo criar e manipular montagens complexas.
+# 
+# 4. **AirPlaneDesign**: Ferramentas específicas para o design de aviões, auxiliando na modelagem de estruturas aéreas.
+# 
+# 5. **AnimationFreeCAD**: Permite a criação de animações para visualizar o movimento e as interações dos modelos no FreeCAD.
+# 
+# 6. **ArchTextures**: Um conjunto de texturas para uso em projetos arquitetônicos dentro do FreeCAD.
+# 
+# 7. **Assembly3**: Outro módulo para construção de montagens dentro do FreeCAD, com foco em facilitar a montagem e testes.
+# 
+# 8. **Assembly4**: Expansão do Assembly3, introduzindo mais funcionalidades para lidar com montagens mais complexas.
+# 
+# 9. **Autoload**: Um módulo que carrega automaticamente componentes específicos de um arquivo FreeCAD, simplificando o processo.
+# 
+# 10. **BCFPlugin**: Ferramenta para exportar e importar arquivos de feedback de construção (BCF), útil para colaboração em projetos.
+# 
+# 11. **BIM**: Módulo voltado para Building Information Modeling (BIM), facilitando a criação de modelos arquitetônicos e de engenharia.
+# 
+# 12. **BIMBots**: Automatiza diversas tarefas no processo de design BIM dentro do FreeCAD.
+# 
+# 13. **CADExchanger**: Ferramenta para importar e exportar modelos CAD de e para o FreeCAD.
+# 
+# 14. **Cfd (obrigatório)**: Ferramentas de dinâmica de fluidos computacional para análise e simulação de fluidos.
+# 
+# 15. **CfdOF (obrigatório)**: Integrando CFD (Computational Fluid Dynamics) com OpenFOAM, para simulações avançadas de fluido.
+# 
+# 16. **CommandPanel**: Interface para aumentar a produtividade no FreeCAD, fornecendo acesso rápido a funções e comandos.
+# 
+# 17. **CubeMenu**: Um menu de atalho personalizável para agilizar o uso do FreeCAD.
+# 
+# 18. **CurvedShapes**: Ferramentas para criar formas curvas avançadas no FreeCAD.
+# 
+# 19. **Curves**: Módulo para criar e manipular curvas e linhas complexas.
+# 
+# 20. **Defeaturing**: Ferramenta que ajuda a remover ou simplificar elementos desnecessários de um modelo 3D.
+# 
+# 21. **Design456**: Ferramentas para a modelagem de componentes mecânicos e outras áreas do design técnico.
+# 
+# 22. **DesignSPHysics**: Integrando o FreeCAD com SPHysics para simulações físicas baseadas em partículas.
+# 
+# 23. **DynamicData**: Sistema para gerenciar dados dinâmicos e parâmetros em projetos do FreeCAD.
+# 
+# 24. **EM**: Ferramentas para modelagem e simulação de circuitos e sistemas elétricos.
+# 
+# 25. **Estimate**: Estimativas de custo e tempo para projetos no FreeCAD, visando facilitar o planejamento.
+# 
+# 26. **ExplodedAssembly**: Criação de montagens explodidas para visualizar melhor as partes individuais de um modelo.
+# 
+# 27. **ExtMan**: Extensão para gerenciar a instalação e a atualização de módulos e extensões no FreeCAD.
+# 
+# 28. **FEM_FrontISTR**: Integrando ferramentas para análise de elementos finitos (FEM) com o software FrontISTR.
+# 
+# 29. **FEMbyGEN**: Uma abordagem alternativa para a análise FEM, gerando soluções para simulações de engenharia.
+# 
+# 30. **FeedsAndSpeeds**: Auxilia no cálculo de parâmetros de corte para operações de usinagem.
+# 
+# 31. **FrameForge**: Ferramenta para a criação e simulação de estruturas de quadro e componentes metálicos.
+# 
+# 32. **FreeCAD-Beginner-Assistant (obrigatório)**: Assistente para iniciantes no FreeCAD, ajudando novos usuários a aprenderem a usar o software.
+# 
+# 33. **FreeGrid**: Adiciona a funcionalidade de grid para facilitar o desenho e a modelagem de objetos no FreeCAD.
+# 
+# 34. **GDML**: Módulo para importar e exportar arquivos GDML, frequentemente utilizado em física de partículas.
+# 
+# 35. **GDT**: Ferramenta para criação de tolerâncias geométricas e dimensionamento de componentes.
+# 
+# 36. **Glass**: Ferramentas para modelagem de objetos de vidro, facilitando a criação de elementos transparentes.
+# 
+# 37. **Help**: Um módulo para integrar documentação e ajuda diretamente no ambiente do FreeCAD.
+# 
+# 38. **IconThemes**: Oferece pacotes de ícones temáticos para personalizar a aparência do FreeCAD.
+# 
+# 39. **ImportNURBS**: Ferramenta para importar modelos NURBS (Non-Uniform Rational B-Splines) em FreeCAD.
+# 
+# 40. **InventorLoader (obrigatório)**: Permite importar arquivos do Autodesk Inventor para o FreeCAD.
+# 
+# 41. **LCInterlocking**: Ferramenta para modelagem de sistemas de interligação de ferrovias.
+# 
+# 42. **Launcher**: Um lançador para abrir o FreeCAD com configurações específicas de projeto ou módulo.
+# 
+# 43. **Lithophane**: Criação de modelos 3D que podem ser impressos em forma de litofania (imagens em relevo).
+# 
+# 44. **MOOC (obrigatório)**: Ferramenta de aprendizagem para usuários do FreeCAD com cursos e tutoriais integrados.
+# 
+# 45. **MakerWorkbench**: Ferramentas para criadores e makers, facilitando a criação de protótipos no FreeCAD.
+# 
+# 46. **Manipulator**: Oferece funcionalidades adicionais para manipular e ajustar modelos 3D no FreeCAD.
+# 
+# 47. **Marz**: Módulo para design mecânico avançado, com recursos adicionais de modelagem de componentes.
+# 
+# 48. **MeshRemodel**: Ferramentas para remodelagem de malhas, ideal para trabalhar com arquivos de malha 3D.
+# 
+# 49. **MnesarcoUtils**: Um conjunto de utilitários úteis para melhorar a experiência no FreeCAD.
+# 
+# 50. **ModernUI (obrigatório)**: Oferece uma interface de usuário moderna para tornar o FreeCAD mais acessível e visualmente agradável.
+# 
+# 51. **NavigationIndicator**: Ferramenta para indicar e controlar a navegação em grandes modelos 3D.
+# 
+# 52. **Nodes**: Introduz a programação visual com nós (Node-based programming) para modelagem dentro do FreeCAD.
+# 
+# 53. **OpticsWorkbench**: Ferramentas para modelagem de sistemas ópticos e simulações relacionadas.
+# 
+# 54. **POV-Ray-Rendering**: Integra o FreeCAD com o renderizador POV-Ray para criar imagens de alta qualidade a partir de modelos 3D.
+# 
+# 55. **Part-o-magic**: Oferece funcionalidades avançadas para modelagem de peças mecânicas com formas complexas.
+# 
+# 56. **PieMenu**: Um menu radial personalizável para acesso rápido a ferramentas e funções no FreeCAD.
+# 
+# 57. **Plot**: Ferramentas para gerar gráficos e plotagens a partir de dados numéricos ou simulações.
+# 
+# 58. **Pyramids-and-Polyhedrons**: Ferramentas para criação de pirâmides e poliedros em modelagem 3D.
+# 
+# 59. **Quetzal**: Um novo módulo que adiciona funcionalidades adicionais de modelagem e design no FreeCAD.
+# 
+# 60. **Reinforcement**: Ferramenta para calcular e modelar a armadura de estruturas de concreto e outros materiais.
+# 
+# 61. **RemBench**: Ferramenta voltada para benchmarking e medição de desempenho de simulações e modelos no FreeCAD.
+# 
+# 62. **Render**: Um módulo para renderizar visualmente os modelos 3D no FreeCAD, proporcionando imagens realistas.
+# 
+# 63. **Reporting**: Ferramenta para gerar relatórios detalhados sobre os projetos e simulações realizadas no FreeCAD.
+# 
+# 64. **Rocket (obrigatório)**: Ferramentas específicas para design de foguetes e sistemas de propulsão.
+# 
+# 65. **STEMFIE**: Módulo voltado para educação e ensino de ciências, facilitando o uso do FreeCAD em ambientes de aprendizagem.
+# 
+# 66. **SearchBar (obrigatório)**: Adiciona uma barra de pesquisa para facilitar a navegação e a busca por funções dentro do FreeCAD.
+# 
+# 67. **SelectorToolbar**: Um painel de ferramentas para facilitar a seleção e modificação de objetos e componentes no FreeCAD.
+# 
+# 68. **Ship**: Ferramentas dedicadas à modelagem de navios e embarcações no FreeCAD.
+# 
+# 69. **ShortCuts**: Oferece atalhos personalizados para melhorar a eficiência e a produtividade ao usar o FreeCAD.
+# 
+# 70. **Silk**: Ferramentas para criar superfícies e formas curvas de alta precisão no FreeCAD.
+# 
+# 71. **SlopedPlanesMacro**: Macro para criar e manipular planos inclinados em modelos 3D.
+# 
+# 72. **SteelColumn**: Ferramenta específica para modelagem de colunas de aço e outros elementos estruturais.
+# 
+# 73. **TabBar**: Modifica a interface do FreeCAD, adicionando uma barra de abas para facilitar a navegação entre documentos.
+# 
+# 74. **ThreadProfile (obrigatório)**: Permite criar e manipular perfis de rosca no FreeCAD.
+# 
+# 75. **ToolbarStyle**: Personaliza o estilo e o comportamento das barras de ferramentas do FreeCAD.
+# 
+# 76. **Trails**: Ferramenta para criar e visualizar trilhas e caminhos em modelos 3D.
+# 
+# 77. **WebTools**: Conjunto de ferramentas para integrar o FreeCAD com tecnologias e serviços web.
+# 
+# 78. **Woodworking**: Módulo específico para modelagem e design de peças de madeira, ideal para carpinteiros e marc
+# 
 
 # ## 1. Como configurar/instalar/usar o `FreeCAD` ou o `freecad-realthunder` no `Linux Ubuntu` [1]
 # 
@@ -118,21 +271,21 @@
 
 # 3. **Baixe o `AppImage` do `FreeCAD-RealThunder`**: Use o comando abaixo para baixar a versão mais recente diretamente do `GitHub`:
 # 
-# ```
-# wget https://github.com/realthunder/FreeCAD_assembly3/releases/download/LinkDaily/FreeCAD-asm3-Daily-Conda-x86_64.AppImage
-# ```
+#     ```
+#     wget https://github.com/realthunder/FreeCAD_assembly3/releases/download/LinkDaily/FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+#     ```
 # 
 # 4. **Torne o `AppImage` executável**: Após o _download_, torne o arquivo executável:
 # 
-# ```
-# chmod +x FreeCAD-asm3-Daily-Conda-x86_64.AppImage
-# ```
+#     ```
+#     chmod +x FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+#     ```
 # 
 # 5. **Execute o `FreeCAD-RealThunder`**: Execute o `AppImage` diretamente:
 # 
-# ```
-# ./FreeCAD-asm3-Daily-Conda-x86_64.AppImage
-# ```
+#     ```
+#     ./FreeCAD-asm3-Daily-Conda-x86_64.AppImage
+#     ```
 
 # **Funcionalidades Adicionais**
 # 
@@ -165,34 +318,7 @@
 #     ```
 # 
 
-# ## 2 Ativar o `ModerUI` no `FreeCAD` [3]
-# 
-# Para ativar o `ModerUI` no `FreeCAD`, você precisa seguir alguns passos simples. O `ModerUI` é um ambiente de trabalho (_workbench_) que proporciona uma interface mais moderna e simplificada para o `FreeCAD`. Aqui estão os passos para ativá-lo:
-# 
-# 1. **Abra o `FreeCAD`:** Inicie o `FreeCAD` no seu computador.
-# 
-# 2. **Verifique se o `ModerUI` está instalado:** O `ModerUI` pode **NÃO** estar pré-instalado no `FreeCAD`. Para verificar isso, vá até a barra de menu e clique em:
-#     
-#     2.1 `"View"` > `"Workbenche"` (ou `"Ambiente de Trabalho"`).
-#     
-#     Se o `ModerUI` estiver na lista, você pode pular o passo 4.
-# 
-# 3. **Instale o `ModerUI` (se necessário):** Se o `ModerUI` **NÃO** estiver na lista de ambientes de trabalho, você precisará instalá-lo. Para isso:
-# 
-#     3.1 Vá até o menu `Tools` (ou `Ferramentas`);
-#     
-#     3.2 `Addon Manager` (ou `Gerenciador de Complementos`).
-#     
-#     3.3 Procure por `ModerUI` na lista de complementos disponíveis e clique em `Install` (`Instalar`).
-# 
-# 4. **Ative o `ModerUI`:** Após a instalação, você pode ativar o `ModerUI`. Vá novamente até a barra de menu, clique em: `"Ver" > "Ambientes de Trabalho" e selecione "ModerUI"`.
-# 
-# 5. **Explore a nova interface:** Com o `ModerUI` ativado, você notará uma mudança na interface do `FreeCAD`, com uma aparência mais moderna e talvez um conjunto diferente de ferramentas e opções disponíveis.
-# 
-# Lembre-se de que as versões do `FreeCAD` e dos complementos podem variar, então os passos exatos podem ser um pouco diferentes dependendo da versão que você está usando. Se tiver dificuldades, consulte a documentação do `FreeCAD` ou fóruns da comunidade para obter ajuda específica para a sua versão.
-# 
-
-# ## 3. Instalar um Add-on manualmente
+# ## 2. Instalar um Add-on manualmente
 # 
 # Para instalar um Add-on manualmente no `FreeCAD` em uma rede corporativa que bloqueia o acesso ao GitHub, você pode fazer o download do Add-on em outro computador ou rede que tenha acesso ao GitHub e depois transferi-lo para a máquina onde o `FreeCAD` está instalado. Aqui estão os passos:
 # 
@@ -245,7 +371,34 @@
 # Como você está instalando os Add-ons manualmente, será necessário verificar atualizações periodicamente no repositório do Add-on, já que ele não será atualizado automaticamente pelo gerenciador do `FreeCAD`.
 # 
 
-# ### 3.1 Ativar o `A2plus` no `FreeCAD` [4]
+# ## 3.1 Ativar o `ModerUI` no `FreeCAD` [3]
+# 
+# Para ativar o `ModerUI` no `FreeCAD`, você precisa seguir alguns passos simples. O `ModerUI` é um ambiente de trabalho (_workbench_) que proporciona uma interface mais moderna e simplificada para o `FreeCAD`. Aqui estão os passos para ativá-lo:
+# 
+# 1. **Abra o `FreeCAD`:** Inicie o `FreeCAD` no seu computador.
+# 
+# 2. **Verifique se o `ModerUI` está instalado:** O `ModerUI` pode **NÃO** estar pré-instalado no `FreeCAD`. Para verificar isso, vá até a barra de menu e clique em:
+#     
+#     2.1 `"View"` > `"Workbenche"` (ou `"Ambiente de Trabalho"`).
+#     
+#     Se o `ModerUI` estiver na lista, você pode pular o passo 4.
+# 
+# 3. **Instale o `ModerUI` (se necessário):** Se o `ModerUI` **NÃO** estiver na lista de ambientes de trabalho, você precisará instalá-lo. Para isso:
+# 
+#     3.1 Vá até o menu `Tools` (ou `Ferramentas`);
+#     
+#     3.2 `Addon Manager` (ou `Gerenciador de Complementos`).
+#     
+#     3.3 Procure por `ModerUI` na lista de complementos disponíveis e clique em `Install` (`Instalar`).
+# 
+# 4. **Ative o `ModerUI`:** Após a instalação, você pode ativar o `ModerUI`. Vá novamente até a barra de menu, clique em: `"Ver" > "Ambientes de Trabalho" e selecione "ModerUI"`.
+# 
+# 5. **Explore a nova interface:** Com o `ModerUI` ativado, você notará uma mudança na interface do `FreeCAD`, com uma aparência mais moderna e talvez um conjunto diferente de ferramentas e opções disponíveis.
+# 
+# Lembre-se de que as versões do `FreeCAD` e dos complementos podem variar, então os passos exatos podem ser um pouco diferentes dependendo da versão que você está usando. Se tiver dificuldades, consulte a documentação do `FreeCAD` ou fóruns da comunidade para obter ajuda específica para a sua versão.
+# 
+
+# ### 3.2 Ativar o `A2plus` no `FreeCAD` [4]
 # 
 # Para ativar o `A2plus` no `FreeCAD`, você precisa seguir alguns passos simples. O `A2plus` é um workbench (bancada de trabalho) dentro do `FreeCAD` que permite o trabalho com montagens mecânicas. Aqui está o processo:
 # 
@@ -277,7 +430,7 @@
 # 
 #     3.3 Caso encontre algum problema durante a instalação ou a utilização do `A2plus`, consulte a documentação do FreeCAD ou fóruns da comunidade para obter ajuda adicional.
 
-# ### 3.2 `Path Workbench`
+# ### 3.3 `Path Workbench`
 # 
 # Para habilitar e usar o `Path Workbench` no `FreeCAD`, siga os passos abaixo. Vou assumir que você já tem o `FreeCAD` instalado no seu sistema. Se não tiver, você precisará instalar o `FreeCAD` primeiro.
 # 
