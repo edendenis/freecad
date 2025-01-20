@@ -41,7 +41,7 @@
 # 
 # 6. **ArchTextures**: Um conjunto de texturas para uso em projetos arquitetônicos dentro do FreeCAD.
 # 
-# 7. **Assembly3**: Outro módulo para construção de montagens dentro do FreeCAD, com foco em facilitar a montagem e testes.
+# 7. **Assembly3 (obrigatório)**: Outro módulo para construção de montagens dentro do FreeCAD, com foco em facilitar a montagem e testes.
 # 
 # 8. **Assembly4**: Expansão do Assembly3, introduzindo mais funcionalidades para lidar com montagens mais complexas.
 # 
@@ -338,7 +338,9 @@
 # 
 # 2. Extraia o conteúdo do ZIP para o diretório onde os Add-ons do `FreeCAD` estão armazenados:
 # 
-#     * **Linux**: Normalmente em `~/.FreeCAD/Mod/`
+#     * **Linux**: Normalmente em `~/snap/freecad/current/.FreeCAD/Mod`
+# 
+#         * Se percisar, utilize comandos no `Terminal Emulator` com o uso do `sudo` para criar a pasta e realizar a cópia das pastas.
 # 
 #     * **Windows**: Normalmente em `%APPDATA%\FreeCAD\Mod\`
 # 
