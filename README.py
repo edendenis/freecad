@@ -29,161 +29,165 @@
 # 
 # Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 # 
-# 1. **3D_Printing_Tools**: Ferramentas para facilitar o processo de preparação de modelos 3D para impressão, incluindo ajustes e verificações.
+# #### `Add-on` obrigatório(s)
 # 
-# 2. **3DfindIT**: Um repositório para buscar e inserir modelos 3D diretamente no FreeCAD, otimizando o design de projetos.
+# * **A2plus (obrigatório)**: Uma versão avançada do trabalho com assembleias no FreeCAD, permitindo criar e manipular montagens complexas.
 # 
-# 3. **A2plus (obrigatório)**: Uma versão avançada do trabalho com assembleias no FreeCAD, permitindo criar e manipular montagens complexas.
+# * **AirPlaneDesign (obrigatório)**: Ferramentas específicas para o design de aviões, auxiliando na modelagem de estruturas aéreas.
 # 
-# 4. **AirPlaneDesign (obrigatório)**: Ferramentas específicas para o design de aviões, auxiliando na modelagem de estruturas aéreas.
+# * **Cfd (obrigatório)**: Ferramentas de dinâmica de fluidos computacional para análise e simulação de fluidos.
 # 
-# 5. **AnimationFreeCAD**: Permite a criação de animações para visualizar o movimento e as interações dos modelos no FreeCAD.
+# * **CfdOF (obrigatório)**: Integrando CFD (Computational Fluid Dynamics) com OpenFOAM, para simulações avançadas de fluido.
 # 
-# 6. **ArchTextures**: Um conjunto de texturas para uso em projetos arquitetônicos dentro do FreeCAD.
+# * **ExplodedAssembly (obrigatório)**: Criação de montagens explodidas para visualizar melhor as partes individuais de um modelo.
 # 
-# 7. **Assembly3**: Outro módulo para construção de montagens dentro do FreeCAD, com foco em facilitar a montagem e testes.
+# * **ModernUI (obrigatório)**: Oferece uma interface de usuário moderna para tornar o FreeCAD mais acessível e visualmente agradável.
 # 
-# 8. **Assembly4**: Expansão do Assembly3, introduzindo mais funcionalidades para lidar com montagens mais complexas.
+# * **SearchBar (obrigatório)**: Adiciona uma barra de pesquisa para facilitar a navegação e a busca por funções dentro do FreeCAD.
 # 
-# 9. **Autoload**: Um módulo que carrega automaticamente componentes específicos de um arquivo FreeCAD, simplificando o processo.
+# ### Demais `Add-on`
 # 
-# 10. **BCFPlugin**: Ferramenta para exportar e importar arquivos de feedback de construção (BCF), útil para colaboração em projetos.
+# * **3D_Printing_Tools**: Ferramentas para facilitar o processo de preparação de modelos 3D para impressão, incluindo ajustes e verificações.
 # 
-# 11. **BIM**: Módulo voltado para Building Information Modeling (BIM), facilitando a criação de modelos arquitetônicos e de engenharia.
+# * **3DfindIT**: Um repositório para buscar e inserir modelos 3D diretamente no FreeCAD, otimizando o design de projetos.
 # 
-# 12. **BIMBots**: Automatiza diversas tarefas no processo de design BIM dentro do FreeCAD.
+# * **AnimationFreeCAD**: Permite a criação de animações para visualizar o movimento e as interações dos modelos no FreeCAD.
 # 
-# 13. **CADExchanger**: Ferramenta para importar e exportar modelos CAD de e para o FreeCAD.
+# * **ArchTextures**: Um conjunto de texturas para uso em projetos arquitetônicos dentro do FreeCAD.
 # 
-# 14. **Cfd (obrigatório)**: Ferramentas de dinâmica de fluidos computacional para análise e simulação de fluidos.
+# * **Assembly3**: Outro módulo para construção de montagens dentro do FreeCAD, com foco em facilitar a montagem e testes.
 # 
-# 15. **CfdOF (obrigatório)**: Integrando CFD (Computational Fluid Dynamics) com OpenFOAM, para simulações avançadas de fluido.
+# * **Assembly4**: Expansão do Assembly3, introduzindo mais funcionalidades para lidar com montagens mais complexas.
 # 
-# 16. **CommandPanel**: Interface para aumentar a produtividade no FreeCAD, fornecendo acesso rápido a funções e comandos.
+# * **Autoload**: Um módulo que carrega automaticamente componentes específicos de um arquivo FreeCAD, simplificando o processo.
 # 
-# 17. **CubeMenu**: Um menu de atalho personalizável para agilizar o uso do FreeCAD.
+# * **BCFPlugin**: Ferramenta para exportar e importar arquivos de feedback de construção (BCF), útil para colaboração em projetos.
 # 
-# 18. **CurvedShapes**: Ferramentas para criar formas curvas avançadas no FreeCAD.
+# * **BIM**: Módulo voltado para Building Information Modeling (BIM), facilitando a criação de modelos arquitetônicos e de engenharia.
 # 
-# 19. **Curves**: Módulo para criar e manipular curvas e linhas complexas.
+# * **BIMBots**: Automatiza diversas tarefas no processo de design BIM dentro do FreeCAD.
 # 
-# 20. **Defeaturing**: Ferramenta que ajuda a remover ou simplificar elementos desnecessários de um modelo 3D.
+# * **CADExchanger**: Ferramenta para importar e exportar modelos CAD de e para o FreeCAD.
 # 
-# 21. **Design456**: Ferramentas para a modelagem de componentes mecânicos e outras áreas do design técnico.
+# * **CommandPanel**: Interface para aumentar a produtividade no FreeCAD, fornecendo acesso rápido a funções e comandos.
 # 
-# 22. **DesignSPHysics**: Integrando o FreeCAD com SPHysics para simulações físicas baseadas em partículas.
+# * **CubeMenu**: Um menu de atalho personalizável para agilizar o uso do FreeCAD.
 # 
-# 23. **DynamicData**: Sistema para gerenciar dados dinâmicos e parâmetros em projetos do FreeCAD.
+# * **CurvedShapes**: Ferramentas para criar formas curvas avançadas no FreeCAD.
 # 
-# 24. **EM**: Ferramentas para modelagem e simulação de circuitos e sistemas elétricos.
+# * **Curves**: Módulo para criar e manipular curvas e linhas complexas.
 # 
-# 25. **Estimate**: Estimativas de custo e tempo para projetos no FreeCAD, visando facilitar o planejamento.
+# * **Defeaturing**: Ferramenta que ajuda a remover ou simplificar elementos desnecessários de um modelo 3D.
 # 
-# 26. **ExplodedAssembly (obrigatório)**: Criação de montagens explodidas para visualizar melhor as partes individuais de um modelo.
+# * **Design456**: Ferramentas para a modelagem de componentes mecânicos e outras áreas do design técnico.
 # 
-# 27. **ExtMan**: Extensão para gerenciar a instalação e a atualização de módulos e extensões no FreeCAD.
+# * **DesignSPHysics**: Integrando o FreeCAD com SPHysics para simulações físicas baseadas em partículas.
 # 
-# 28. **FEM_FrontISTR**: Integrando ferramentas para análise de elementos finitos (FEM) com o software FrontISTR.
+# * **DynamicData**: Sistema para gerenciar dados dinâmicos e parâmetros em projetos do FreeCAD.
 # 
-# 29. **FEMbyGEN**: Uma abordagem alternativa para a análise FEM, gerando soluções para simulações de engenharia.
+# * **EM**: Ferramentas para modelagem e simulação de circuitos e sistemas elétricos.
 # 
-# 30. **FeedsAndSpeeds**: Auxilia no cálculo de parâmetros de corte para operações de usinagem.
+# * **Estimate**: Estimativas de custo e tempo para projetos no FreeCAD, visando facilitar o planejamento.
 # 
-# 31. **FrameForge**: Ferramenta para a criação e simulação de estruturas de quadro e componentes metálicos.
+# * **ExtMan**: Extensão para gerenciar a instalação e a atualização de módulos e extensões no FreeCAD.
 # 
-# 32. **FreeCAD-Beginner-Assistant**: Assistente para iniciantes no FreeCAD, ajudando novos usuários a aprenderem a usar o software.
+# * **FEM_FrontISTR**: Integrando ferramentas para análise de elementos finitos (FEM) com o software FrontISTR.
 # 
-# 33. **FreeGrid**: Adiciona a funcionalidade de grid para facilitar o desenho e a modelagem de objetos no FreeCAD.
+# * **FEMbyGEN**: Uma abordagem alternativa para a análise FEM, gerando soluções para simulações de engenharia.
 # 
-# 34. **GDML**: Módulo para importar e exportar arquivos GDML, frequentemente utilizado em física de partículas.
+# * **FeedsAndSpeeds**: Auxilia no cálculo de parâmetros de corte para operações de usinagem.
 # 
-# 35. **GDT**: Ferramenta para criação de tolerâncias geométricas e dimensionamento de componentes.
+# * **FrameForge**: Ferramenta para a criação e simulação de estruturas de quadro e componentes metálicos.
 # 
-# 36. **Glass**: Ferramentas para modelagem de objetos de vidro, facilitando a criação de elementos transparentes.
+# * **FreeCAD-Beginner-Assistant**: Assistente para iniciantes no FreeCAD, ajudando novos usuários a aprenderem a usar o software.
 # 
-# 37. **Help**: Um módulo para integrar documentação e ajuda diretamente no ambiente do FreeCAD.
+# * **FreeGrid**: Adiciona a funcionalidade de grid para facilitar o desenho e a modelagem de objetos no FreeCAD.
 # 
-# 38. **IconThemes**: Oferece pacotes de ícones temáticos para personalizar a aparência do FreeCAD.
+# * **GDML**: Módulo para importar e exportar arquivos GDML, frequentemente utilizado em física de partículas.
 # 
-# 39. **ImportNURBS**: Ferramenta para importar modelos NURBS (Non-Uniform Rational B-Splines) em FreeCAD.
+# * **GDT**: Ferramenta para criação de tolerâncias geométricas e dimensionamento de componentes.
 # 
-# 40. **InventorLoader**: Permite importar arquivos do Autodesk Inventor para o FreeCAD.
+# * **Glass**: Ferramentas para modelagem de objetos de vidro, facilitando a criação de elementos transparentes.
 # 
-# 41. **LCInterlocking**: Ferramenta para modelagem de sistemas de interligação de ferrovias.
+# * **Help**: Um módulo para integrar documentação e ajuda diretamente no ambiente do FreeCAD.
 # 
-# 42. **Launcher**: Um lançador para abrir o FreeCAD com configurações específicas de projeto ou módulo.
+# * **IconThemes**: Oferece pacotes de ícones temáticos para personalizar a aparência do FreeCAD.
 # 
-# 43. **Lithophane**: Criação de modelos 3D que podem ser impressos em forma de litofania (imagens em relevo).
+# * **ImportNURBS**: Ferramenta para importar modelos NURBS (Non-Uniform Rational B-Splines) em FreeCAD.
 # 
-# 44. **MOOC**: Ferramenta de aprendizagem para usuários do FreeCAD com cursos e tutoriais integrados.
+# * **InventorLoader**: Permite importar arquivos do Autodesk Inventor para o FreeCAD.
 # 
-# 45. **MakerWorkbench**: Ferramentas para criadores e makers, facilitando a criação de protótipos no FreeCAD.
+# * **LCInterlocking**: Ferramenta para modelagem de sistemas de interligação de ferrovias.
 # 
-# 46. **Manipulator**: Oferece funcionalidades adicionais para manipular e ajustar modelos 3D no FreeCAD.
+# * **Launcher**: Um lançador para abrir o FreeCAD com configurações específicas de projeto ou módulo.
 # 
-# 47. **Marz**: Módulo para design mecânico avançado, com recursos adicionais de modelagem de componentes.
+# * **Lithophane**: Criação de modelos 3D que podem ser impressos em forma de litofania (imagens em relevo).
 # 
-# 48. **MeshRemodel**: Ferramentas para remodelagem de malhas, ideal para trabalhar com arquivos de malha 3D.
+# * **MOOC**: Ferramenta de aprendizagem para usuários do FreeCAD com cursos e tutoriais integrados.
 # 
-# 49. **MnesarcoUtils**: Um conjunto de utilitários úteis para melhorar a experiência no FreeCAD.
+# * **MakerWorkbench**: Ferramentas para criadores e makers, facilitando a criação de protótipos no FreeCAD.
 # 
-# 50. **ModernUI (obrigatório)**: Oferece uma interface de usuário moderna para tornar o FreeCAD mais acessível e visualmente agradável.
+# * **Manipulator**: Oferece funcionalidades adicionais para manipular e ajustar modelos 3D no FreeCAD.
 # 
-# 51. **NavigationIndicator**: Ferramenta para indicar e controlar a navegação em grandes modelos 3D.
+# * **Marz**: Módulo para design mecânico avançado, com recursos adicionais de modelagem de componentes.
 # 
-# 52. **Nodes**: Introduz a programação visual com nós (Node-based programming) para modelagem dentro do FreeCAD.
+# * **MeshRemodel**: Ferramentas para remodelagem de malhas, ideal para trabalhar com arquivos de malha 3D.
 # 
-# 53. **OpticsWorkbench**: Ferramentas para modelagem de sistemas ópticos e simulações relacionadas.
+# * **MnesarcoUtils**: Um conjunto de utilitários úteis para melhorar a experiência no FreeCAD.
 # 
-# 54. **POV-Ray-Rendering**: Integra o FreeCAD com o renderizador POV-Ray para criar imagens de alta qualidade a partir de modelos 3D.
+# * **NavigationIndicator**: Ferramenta para indicar e controlar a navegação em grandes modelos 3D.
 # 
-# 55. **Part-o-magic**: Oferece funcionalidades avançadas para modelagem de peças mecânicas com formas complexas.
+# * **Nodes**: Introduz a programação visual com nós (Node-based programming) para modelagem dentro do FreeCAD.
 # 
-# 56. **PieMenu**: Um menu radial personalizável para acesso rápido a ferramentas e funções no FreeCAD.
+# * **OpticsWorkbench**: Ferramentas para modelagem de sistemas ópticos e simulações relacionadas.
 # 
-# 57. **Plot**: Ferramentas para gerar gráficos e plotagens a partir de dados numéricos ou simulações.
+# * **POV-Ray-Rendering**: Integra o FreeCAD com o renderizador POV-Ray para criar imagens de alta qualidade a partir de modelos 3D.
 # 
-# 58. **Pyramids-and-Polyhedrons**: Ferramentas para criação de pirâmides e poliedros em modelagem 3D.
+# * **Part-o-magic**: Oferece funcionalidades avançadas para modelagem de peças mecânicas com formas complexas.
 # 
-# 59. **Quetzal**: Um novo módulo que adiciona funcionalidades adicionais de modelagem e design no FreeCAD.
+# * **PieMenu**: Um menu radial personalizável para acesso rápido a ferramentas e funções no FreeCAD.
 # 
-# 60. **Reinforcement**: Ferramenta para calcular e modelar a armadura de estruturas de concreto e outros materiais.
+# * **Plot**: Ferramentas para gerar gráficos e plotagens a partir de dados numéricos ou simulações.
 # 
-# 61. **RemBench**: Ferramenta voltada para benchmarking e medição de desempenho de simulações e modelos no FreeCAD.
+# * **Pyramids-and-Polyhedrons**: Ferramentas para criação de pirâmides e poliedros em modelagem 3D.
 # 
-# 62. **Render**: Um módulo para renderizar visualmente os modelos 3D no FreeCAD, proporcionando imagens realistas.
+# * **Quetzal**: Um novo módulo que adiciona funcionalidades adicionais de modelagem e design no FreeCAD.
 # 
-# 63. **Reporting**: Ferramenta para gerar relatórios detalhados sobre os projetos e simulações realizadas no FreeCAD.
+# * **Reinforcement**: Ferramenta para calcular e modelar a armadura de estruturas de concreto e outros materiais.
 # 
-# 64. **Rocket (obrigatório)**: Ferramentas específicas para design de foguetes e sistemas de propulsão.
+# * **RemBench**: Ferramenta voltada para benchmarking e medição de desempenho de simulações e modelos no FreeCAD.
 # 
-# 65. **STEMFIE**: Módulo voltado para educação e ensino de ciências, facilitando o uso do FreeCAD em ambientes de aprendizagem.
+# * **Render**: Um módulo para renderizar visualmente os modelos 3D no FreeCAD, proporcionando imagens realistas.
 # 
-# 66. **SearchBar (obrigatório)**: Adiciona uma barra de pesquisa para facilitar a navegação e a busca por funções dentro do FreeCAD.
+# * **Reporting**: Ferramenta para gerar relatórios detalhados sobre os projetos e simulações realizadas no FreeCAD.
 # 
-# 67. **SelectorToolbar**: Um painel de ferramentas para facilitar a seleção e modificação de objetos e componentes no FreeCAD.
+# * **Rocket (obrigatório)**: Ferramentas específicas para design de foguetes e sistemas de propulsão.
 # 
-# 68. **Ship**: Ferramentas dedicadas à modelagem de navios e embarcações no FreeCAD.
+# * **STEMFIE**: Módulo voltado para educação e ensino de ciências, facilitando o uso do FreeCAD em ambientes de aprendizagem.
 # 
-# 69. **ShortCuts**: Oferece atalhos personalizados para melhorar a eficiência e a produtividade ao usar o FreeCAD.
+# * **SelectorToolbar**: Um painel de ferramentas para facilitar a seleção e modificação de objetos e componentes no FreeCAD.
 # 
-# 70. **Silk**: Ferramentas para criar superfícies e formas curvas de alta precisão no FreeCAD.
+# * **Ship**: Ferramentas dedicadas à modelagem de navios e embarcações no FreeCAD.
 # 
-# 71. **SlopedPlanesMacro**: Macro para criar e manipular planos inclinados em modelos 3D.
+# * **ShortCuts**: Oferece atalhos personalizados para melhorar a eficiência e a produtividade ao usar o FreeCAD.
 # 
-# 72. **SteelColumn**: Ferramenta específica para modelagem de colunas de aço e outros elementos estruturais.
+# * **Silk**: Ferramentas para criar superfícies e formas curvas de alta precisão no FreeCAD.
 # 
-# 73. **TabBar**: Modifica a interface do FreeCAD, adicionando uma barra de abas para facilitar a navegação entre documentos.
+# * **SlopedPlanesMacro**: Macro para criar e manipular planos inclinados em modelos 3D.
 # 
-# 74. **ThreadProfile**: Permite criar e manipular perfis de rosca no FreeCAD.
+# * **SteelColumn**: Ferramenta específica para modelagem de colunas de aço e outros elementos estruturais.
 # 
-# 75. **ToolbarStyle**: Personaliza o estilo e o comportamento das barras de ferramentas do FreeCAD.
+# * **TabBar**: Modifica a interface do FreeCAD, adicionando uma barra de abas para facilitar a navegação entre documentos.
 # 
-# 76. **Trails**: Ferramenta para criar e visualizar trilhas e caminhos em modelos 3D.
+# * **ThreadProfile**: Permite criar e manipular perfis de rosca no FreeCAD.
 # 
-# 77. **WebTools**: Conjunto de ferramentas para integrar o FreeCAD com tecnologias e serviços web.
+# * **ToolbarStyle**: Personaliza o estilo e o comportamento das barras de ferramentas do FreeCAD.
 # 
-# 78. **Woodworking**: Módulo específico para modelagem e design de peças de madeira, ideal para carpinteiros e marc
+# * **Trails**: Ferramenta para criar e visualizar trilhas e caminhos em modelos 3D.
+# 
+# * **WebTools**: Conjunto de ferramentas para integrar o FreeCAD com tecnologias e serviços web.
+# 
+# * **Woodworking**: Módulo específico para modelagem e design de peças de madeira, ideal para carpinteiros e marc
 # 
 
 # ## 1. Como configurar/instalar/usar o `FreeCAD` ou o `freecad-realthunder` no `Linux Ubuntu` [1]
