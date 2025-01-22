@@ -605,6 +605,19 @@
 # 1. **Mostrar esse diálogo quando importar e exportar**: Ativado
 # 
 
+# ## 6. Ajustar o ângulo de rotação
+# 
+# <div style="text-align: center;">
+#     <img src="figures/edit_preferences_display_navigation.png" alt="Preferências do Import-Export para arquivos STEP" />
+# </div>
+# 
+# O `"Steps by turn"` realmente controla o número de passos para completar uma rotação de 360 graus no **Navigation Cube**. Alterando esse valor, você ajusta a precisão dos giros.
+# 
+# 1. Divida 360 graus pelo número de passos que você deseja. Para 15 graus por giro:
+# 
+#     * 360 ÷ 15 = 24 passos.
+# 
+
 # ## 6. Desinstalar o `FreeCAD`
 # 
 # 1. Se você preferir, pode remover o `FreeCAD 0.19` antes de instalar a nova versão:
