@@ -614,6 +614,7 @@ O `"Steps by turn"` realmente controla o número de passos para completar uma ro
 
     * 360 ÷ 15 = 24 passos.
 
+Você pode ajustar diretamente o campo Steps by turn e clicar em `Apply` para aplicar a alteração.
 
 ## 6. Desinstalar o `FreeCAD`
 
