@@ -32,7 +32,7 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 
 3. **A2plus (obrigatório)**: Uma versão avançada do trabalho com assembleias no FreeCAD, permitindo criar e manipular montagens complexas.
 
-4. **AirPlaneDesign**: Ferramentas específicas para o design de aviões, auxiliando na modelagem de estruturas aéreas.
+4. **AirPlaneDesign (obrigatório)**: Ferramentas específicas para o design de aviões, auxiliando na modelagem de estruturas aéreas.
 
 5. **AnimationFreeCAD**: Permite a criação de animações para visualizar o movimento e as interações dos modelos no FreeCAD.
 
@@ -88,7 +88,7 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 
 31. **FrameForge**: Ferramenta para a criação e simulação de estruturas de quadro e componentes metálicos.
 
-32. **FreeCAD-Beginner-Assistant (obrigatório)**: Assistente para iniciantes no FreeCAD, ajudando novos usuários a aprenderem a usar o software.
+32. **FreeCAD-Beginner-Assistant**: Assistente para iniciantes no FreeCAD, ajudando novos usuários a aprenderem a usar o software.
 
 33. **FreeGrid**: Adiciona a funcionalidade de grid para facilitar o desenho e a modelagem de objetos no FreeCAD.
 
@@ -581,6 +581,10 @@ Essas configurações devem proporcionar uma boa base para a maioria das importa
 1. **Mostrar esse diálogo quando importar e exportar**: Ativado
 
 ### 5.9 STEP
+
+<div style="text-align: center;">
+    <img src="figures/step.png" alt="Preferências do Import-Export para arquivos STEP" />
+</div>
 
 1. **Mostrar esse diálogo quando importar e exportar**: Ativado
 
