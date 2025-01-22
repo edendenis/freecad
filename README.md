@@ -498,6 +498,15 @@ O `FreeCAD` suporta a abertura de diversos arquivos compatíveis com CAD. Para a
 
 Se você encontrar algum problema durante a importação, verifique as configurações de importação no menu de preferências e ajuste conforme necessário. O `FreeCAD` possui várias opções para lidar com diferentes versões e variações do formato compatíveis com CAD.
 
+5. **Certifique-se de que o Sólido é Válido**: Verifique se o Objeto é um Sólido:
+
+    5.1 Selecione o sólido ou o componente correspondente na árvore de modelos.
+
+    5.2 Vá para o menu `Part → Check Geometry` para confirmar que o objeto é um sólido válido.
+
+    5.3 Se houver problemas, corrija a geometria antes de proceder.
+
+
 
 ### 5.1 IFC import
 
