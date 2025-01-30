@@ -10,7 +10,7 @@ _In this document are contained the main commands and settings to set up/install
 
 ## Descrição [2]
 
-### `FreeCAD`
+### `FreeCAD` (recomendado)
 
 O `FreeCAD` é uma poderosa e versátil plataforma de modelagem paramétrica 3D de código aberto, projetada principalmente para o design e modelagem de peças e conjuntos em engenharia mecânica e design de produtos. Com uma interface de usuário intuitiva e uma ampla gama de recursos, o `FreeCAD` permite criar modelos 3D precisos e detalhados. Ele suporta a criação de sólidos, superfícies, esboços 2D e montagens complexas, tornando-o uma ferramenta valiosa para projetistas, engenheiros e entusiastas de CAD. Além disso, o `FreeCAD` é altamente personalizável e possui uma comunidade ativa de desenvolvedores e usuários que contribuem com extensões e módulos para estender ainda mais sua funcionalidade, o que o torna uma opção popular para modelagem 3D no mundo do código aberto.
 
@@ -37,6 +37,8 @@ Aqui está uma descrição dos add-ons listados para o **FreeCAD**:
 * **CfdOF (obrigatório)**: Integrando CFD (Computational Fluid Dynamics) com OpenFOAM, para simulações avançadas de fluido.
 
 * **ExplodedAssembly (obrigatório)**: Criação de montagens explodidas para visualizar melhor as partes individuais de um modelo.
+
+* **Fasteners Workbrench (obrigatório)**: Uma bancada de trabalho do Freecad para adicionar/anexar vários fixadores (parafusos, aruelas etc.) às peças
 
 * **ModernUI (obrigatório)**: Oferece uma interface de usuário moderna para tornar o FreeCAD mais acessível e visualmente agradável.
 
